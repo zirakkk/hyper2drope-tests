@@ -1,0 +1,42 @@
+# Exclude large data and result folders
+checkpoints/
+classification_maps/
+data/dataset/
+Extras/
+results/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (if any large ones exist)
+*.pth
+*.pt
+*.model
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
